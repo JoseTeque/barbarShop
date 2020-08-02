@@ -1,0 +1,36 @@
+h1{
+    @include texto-titulo;
+    font-size:  $x-large;
+}
+
+
+@media (min-width: 1200px) {
+
+    h1{
+        @include texto-titulo;
+        font-size: $xx-large;
+    }
+}
+
+h2{
+    @include texto-titulo;
+    font-size:  $x-large;
+}
+
+@media (min-width: 1200px) {
+
+    h{
+        @include texto-titulo;
+        font-size: $x-large;
+    }
+}
+
+h3,h4,h5,p{
+    font-family: $roboto;
+    font-size: $medium;
+}
+
+p{
+    font-weight: $robotoLight;
+    color: $nickel;
+}

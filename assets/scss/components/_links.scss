@@ -1,0 +1,13 @@
+.contenedor-nombre a{
+    text-decoration: none;
+    color: $fuzzyWuzzy; 
+    font-size: $medium;
+
+    &:hover{
+        color: $eerieBlack;
+    }
+
+    &:active{
+        color: $platinum;
+    }
+}

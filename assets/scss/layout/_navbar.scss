@@ -1,0 +1,35 @@
+.container-fluid-navegacion{
+    background-color: $eerieBlack;
+    padding: 15px;
+
+}
+
+// .navbar-toggle-size-lg{
+//     font-size: 20px;
+// }
+
+.navbar-img{
+    width: 80px;
+    height: 50px;
+}
+
+.nav-item{
+    font-size: 2rem;
+    color: $white;
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $robotoRegular;
+
+    &:hover{
+        color: $ruddyPink;
+        text-decoration: none;
+    }
+    
+}
+
+.navbar-icons{
+    font-size: 40px;
+    color: $white;
+    height: 100%;
+}
+
